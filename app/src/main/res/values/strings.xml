@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Permanent App Text -->
+    <string name="app_name">Best News App</string>
+    <string name="no_articles">No articles.</string>
+    <string name="no_internet_connection">No internet.</string>
+    <string name="no_json_ok_response">Problem in JSON</string>
+
+
+    <!-- Placeholder text -->
+    <string name="article_trail_text">Trail text.</string>
+    <string name="article_author">Author</string>
+    <string name="article_section">All News</string>
+    <string name="article_date">Jan, 1 \'01</string>
+    <string name="article_time">00:00</string>
+    <string name="article_headline">Headline</string>
+
+    <!-- Image descriptions -->
+    <string name="image_desc_article_image">Article image - No image</string>
+    <string name="image_desc_app_logo">App Logo</string>
+
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="refresh_menu_item">Refresh</string>
+
+
+    <string name="settings_title">News System</string>
+
+    <string name="thumbnails_query_value">Image of news</string>
+    <string name="contributors_query_value">Contributor</string>
+    <string name="general_category">General</string>
+    <string name="metadata_category">Metadata</string>
+
+    <!-- Order preference-->
+    <string name="pref_order_by_title">Sort by</string>
+    <string name="pref_order_by_key" translatable="false">sort_by</string>
+    <string name="pref_order_by_default">@string/pref_order_by_newest_value</string>
+    <string name="pref_order_by_newest_label">Newest</string>
+    <string name="pref_order_by_oldest_label">Oldest</string>
+    <string name="pref_order_by_relevance_label">Relevance</string>
+    <string name="pref_order_by_newest_value" translatable="false">newest</string>
+    <string name="pref_order_by_oldest_value" translatable="false">oldest</string>
+    <string name="pref_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="pref_order_by_newest_url" translatable="false">&amp;orderBy=newest</string>
+    <string name="pref_order_by_oldest_url" translatable="false">&amp;orderBy=oldest</string>
+    <string name="pref_order_by_relevance_url" translatable="false">&amp;orderBy=relevance</string>
+
+    <string name="pref_topic_1_label">U.S Latest  News</string>
+    <string name="pref_topic_2_label">Global News</string>
+    <string name="pref_topic_3_label">Sports</string>
+    <string name="pref_topic_4_label">Business and Economy</string>
+    <string name="pref_topic_5_label">Political News</string>
+    <string name="pref_topic_title">Topic</string>
+    <string name="pref_topic_key" translatable="false">topic</string>
+    <string name="pref_topic_default">@string/pref_topic_0_label_value</string>
+    <string name="pref_topic_0_label">Best App Best news</string>
+
+
+    <string name="pref_topic_0_label_value" translatable="false">tag=world/series/the-upside-weekly-report</string>
+    <string name="pref_topic_1_label_value" translatable="false">section=us-news</string>
+    <string name="pref_topic_2_label_value" translatable="false">section=world</string>
+    <string name="pref_topic_3_label_value" translatable="false">section=sport&amp;editions=us/sport</string>
+    <string name="pref_topic_4_label_value" translatable="false">section=business&amp;editions=us/business</string>
+    <string name="pref_topic_5_label_value" translatable="false">tag=us-news/us-politics</string>
+
+    <!--Thumbnails preference-->
+    <string name="pref_thumbnail_title">Display Thumbnails</string>
+    <string name="pref_thumbnail_key" translatable="false">display_images</string>
+    <string name="pref_thumbnail_summary_on">Shown</string>
+    <string name="pref_thumbnail_summary_off">Hidden</string>
+
+    <string name="pref_contributors_title">The Contributors</string>
+    <string name="pref_contributors_key" translatable="false">display_contributors</string>
+    <string name="pref_contributors_summary_on">Shown</string>
+    <string name="pref_contributors_summary_off">Hidden</string>
+
+</resources>
